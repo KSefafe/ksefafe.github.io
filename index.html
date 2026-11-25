@@ -1,74 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en-ZA">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Developer & Network Specialist Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#faf9f6">
+  <title>Kgabiso Sefafe — Developer &amp; Network Specialist</title>
+  <meta name="description" content="Explore Kgabiso Sefafe’s web projects, database work and networking labs in Vanderbijlpark, South Africa.">
+  <link rel="canonical" href="https://ksefafe.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ksefafe.github.io/">
+  <meta property="og:title" content="Kgabiso Sefafe — Software development &amp; networking">
+  <meta property="og:description" content="Selected websites, software and networking projects from Vanderbijlpark, South Africa.">
+  <meta property="og:image" content="https://ksefafe.github.io/assets/network-cable.webp">
+  <link rel="icon" href="assets/ks.png" type="image/png">
+  <link rel="preload" href="assets/geist-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-
-  <div class="container">
-    <header>
-      <h1>Hi, I'm Kgabiso Sefafe</h1>
-      <p class="subtitle">Software Developer & Network Specialist</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </header>
-
-    <section id="skills">
-      <h2>Technical Skills</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Web & Desktop</h3>
-          <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span>
-          <span class="tag">TypeScript</span><span class="tag">React</span><span class="tag">Vite</span>
-          <span class="tag">Java</span><span class="tag">VB.NET</span>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="identity" href="#top" aria-label="Kgabiso Sefafe, back to top">
+        <span class="monogram" aria-hidden="true">ks<span>.</span></span>
+        <span>Kgabiso Sefafe</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#projects">Work</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="shell intro" aria-labelledby="name">
+      <div class="intro-copy">
+        <p class="location"><i aria-hidden="true"></i> Vanderbijlpark, South Africa</p>
+        <h1 id="name">Kgabiso<br>Sefafe<span>.</span></h1>
+        <p class="role">Software developer &amp; network specialist</p>
+        <p class="lead">I’m an IT student at Vaal University of Technology. I build websites and desktop tools, configure networks, and help students solve everyday tech problems.</p>
+        <div class="actions">
+          <a class="button primary" href="#projects">Explore my work <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="https://github.com/KSefafe">GitHub profile <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="card">
-          <h3>Databases</h3>
-          <span class="tag">Oracle SQL</span><span class="tag">PL/SQL</span><span class="tag">ADO.NET</span>
+      </div>
+      <div class="hero-image"><img src="assets/network-cable.webp" width="1200" height="800" alt="" fetchpriority="high"></div>
+    </section>
+    <section id="projects" class="work section-rule" aria-labelledby="work-title">
+      <div class="shell section-body">
+        <div class="section-title">
+          <h2 id="work-title">Selected work<span>.</span></h2>
+          <a class="text-link" href="https://github.com/KSefafe?tab=repositories">More on GitHub <span aria-hidden="true">↗</span></a>
         </div>
-        <div class="card">
-          <h3>Networking</h3>
-          <span class="tag">CCNA 1 v7</span><span class="tag">CCNA 2 v7</span><span class="tag">Packet Tracer</span>
+        <div class="project-grid">
+          <article class="project">
+            <a class="preview aqua" href="https://ksefafe.github.io/amacytech-services/" aria-label="Visit the AmacyTech website">
+              <img src="assets/amacytech.webp" width="1100" height="627" alt="AmacyTech homepage with its cyan laptop illustration" loading="lazy">
+            </a>
+            <p class="category">Student business</p>
+            <h3>AmacyTech</h3>
+            <p>My campus tech support website puts services and prices in one place. Students choose what they need and take their enquiry straight to WhatsApp.</p>
+            <div class="project-links"><a href="https://ksefafe.github.io/amacytech-services/">Visit site <span aria-hidden="true">↗</span></a><a href="https://github.com/KSefafe/amacytech-services">Source code</a></div>
+          </article>
+          <article class="project">
+            <a class="preview sage" href="https://vaal-rapid-demo.vercel.app/" aria-label="Open the Vaal Rapid sample website">
+              <img src="assets/vaal-rapid.webp" width="1100" height="627" alt="Vaal Rapid plumbing demo homepage with its illustrated tap" loading="lazy">
+            </a>
+            <p class="category">Website design study</p>
+            <h3>Vaal Rapid</h3>
+            <p>A sample site for a fictional plumbing business in the Vaal. It shows how a customer can identify a service and start an enquiry from their phone.</p>
+            <div class="project-links"><a href="https://vaal-rapid-demo.vercel.app/">Open demo <span aria-hidden="true">↗</span></a><a href="https://github.com/KSefafe/vaal-rapid-demo">Source code</a></div>
+          </article>
+          <article class="project">
+            <a class="preview lilac" href="https://itconnect-42699.web.app/" aria-label="Open the IT Connect sign-in page">
+              <img src="assets/it-connect.webp" width="1100" height="627" alt="IT Connect student portal sign-in screen" loading="lazy">
+            </a>
+            <p class="category">React application</p>
+            <h3>IT Connect</h3>
+            <p>A social portal for IT students, built with React, TypeScript and Vite. The live app opens at the sign-in screen with email and Google sign-in options.</p>
+            <div class="project-links"><a href="https://itconnect-42699.web.app/">Open portal <span aria-hidden="true">↗</span></a></div>
+          </article>
         </div>
       </div>
     </section>
-
-    <section id="projects">
-      <h2>Featured Projects</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Database Management App</h3>
-          <p>A desktop management tool built with Java/VB.NET connected to an Oracle SQL database via ADO.NET.</p>
-          <a href="#" target="_blank" class="btn btn-small">Source Code</a>
+    <section class="shell skills-section" id="skills" aria-labelledby="skills-title">
+      <div class="skills-intro">
+        <h2 id="skills-title">Technical<br> skills<span>.</span></h2>
+        <p>Tools I use to build interfaces, work with data, and test network designs.</p>
+      </div>
+      <dl class="skill-list">
+        <div><dt>Web development</dt><dd>HTML, CSS, JavaScript, TypeScript, React, Vite and Tailwind CSS</dd></div>
+        <div><dt>Desktop &amp; databases</dt><dd>Java, VB.NET, Oracle SQL, PL/SQL and ADO.NET</dd></div>
+        <div><dt>Networking</dt><dd>Cisco Packet Tracer, VLANs, subnetting and routing. Coursework includes CCNA 1 and 2 (v7).</dd></div>
+      </dl>
+    </section>
+    <section id="about" class="section-rule" aria-labelledby="about-title">
+      <div class="shell about section-body">
+        <div class="bio">
+          <h2 id="about-title">About me<span>.</span></h2>
+          <p>I study IT in Vanderbijlpark and run AmacyTech around campus. Helping someone get their laptop ready for a deadline is one part of my week. Another is building a website or working through a network design.</p>
+          <p>I’m working towards becoming a software engineer. My database and networking projects let me explore what happens behind the interface.</p>
         </div>
-        <div class="card">
-          <h3>Interactive Web Portal</h3>
-          <p>A responsive frontend interface built with React, TypeScript, Vite, Tailwind CSS components.</p>
-          <a href="https://itconnect-42699.web.app/" target="_blank" class="btn btn-small">Live Demo</a>
-        </div>
-        <div class="card">
-          <h3>Network Topology Lab</h3>
-          <p>Documented enterprise network configuration demonstrating VLANs, routing protocols, and subnetting.</p>
-          <a href="#" target="_blank" class="btn btn-small">View Architecture</a>
+        <div class="lab-notes">
+          <h3>From my lab</h3>
+          <article><h4>Database management app</h4><p>A desktop project that connects a management interface to an Oracle SQL database.</p></article>
+          <article><h4>Network topology lab</h4><p>A documented network configuration covering VLANs, routing protocols and subnetting.</p></article>
         </div>
       </div>
     </section>
-
-    <section id="contact">
-      <h2>Get In Touch</h2>
-      <div class="card card-centered">
-        <p>Interested in collaborating or hiring? Feel free to reach out!</p>
-        <p class="text-spacing"><strong>Email:</strong> sefafekgabiso24@gmail.com</p>
-        <a href="https://github.com/KSefafe" target="_blank" class="btn">GitHub Profile</a>
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="shell contact-inner">
+        <div><h2 id="contact-title">Get in touch<span>.</span></h2><p>For a project, a collaboration or a role, email me.</p></div>
+        <a class="email" href="mailto:sefafekgabiso24@gmail.com">sefafekgabiso24@gmail.com <span aria-hidden="true">↗</span></a>
       </div>
     </section>
-
-    <footer>
-      <p>© 2026 Kgabiso Sefafe. All rights reserved.</p>
-    </footer>
-  </div>
-
+  </main>
+  <footer class="shell footer">
+    <span>© 2026 Kgabiso Sefafe</span>
+    <div><a href="https://github.com/KSefafe">GitHub <span aria-hidden="true">↗</span></a><a href="#top">Back to top <span aria-hidden="true">↑</span></a></div>
+  </footer>
 </body>
 </html>
