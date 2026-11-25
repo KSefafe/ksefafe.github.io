@@ -61,7 +61,7 @@ h1 span, h2 span { color: var(--blue); }
 .section-body, .skills-section { padding-block: clamp(3.2rem, 5.5vw, 5.5rem); }
 .section-title { align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 2.25rem; }
 h2 { font-size: clamp(2.45rem, 4.2vw, 4.15rem); font-weight: 530; line-height: 1.05; letter-spacing: -.063em; }
-.project-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1rem, 2.2vw, 2rem); }
+.project-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: clamp(1.8rem, 3vw, 3rem) clamp(1rem, 2.2vw, 2rem); }
 .project { min-width: 0; display: flex; flex-direction: column; align-items: flex-start; }
 .preview { width: 100%; aspect-ratio: 1.65; display: grid; align-items: center; padding: clamp(.75rem, 1.55vw, 1.65rem); overflow: hidden; border-radius: 8px; }
 .preview img { width: 100%; height: auto; box-shadow: 0 8px 16px #1b283226; border-radius: 3px; transition: transform .2s ease-out; }
@@ -69,6 +69,7 @@ h2 { font-size: clamp(2.45rem, 4.2vw, 4.15rem); font-weight: 530; line-height: 1
 .aqua { background: #ccebf0; }
 .sage { background: #d7dfc9; }
 .lilac { background: #d9d8ee; }
+.ice { background: #d6e6ef; }
 .category { color: #4c566a; margin-top: 1.3rem; font-size: .66rem; }
 h3 { font-size: clamp(1.5rem, 2vw, 1.88rem); font-weight: 580; line-height: 1.25; letter-spacing: -.05em; margin-block: .35rem .65rem; }
 .project > p:not(.category), .skills-intro p, .bio p, .lab-notes p { font-size: .99rem; line-height: 1.7; color: var(--muted); }
